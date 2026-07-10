@@ -1,0 +1,7 @@
+E:\app\PrinterCare\build\PrinterCareSmoke_autogen\mocs_compilation_Debug.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\mocs_compilation_Debug.obj
+E:\app\PrinterCare\src\smoke\main.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\main.obj
+E:\app\PrinterCare\src\managers\HistoryManager.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\HistoryManager.obj
+E:\app\PrinterCare\src\managers\ReminderManager.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\ReminderManager.obj
+E:\app\PrinterCare\src\managers\StartupManager.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\StartupManager.obj
+E:\app\PrinterCare\src\managers\TrayManager.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\TrayManager.obj
+E:\app\PrinterCare\src\managers\ConfigManager.cpp;E:\app\PrinterCare\build\PrinterCareSmoke.dir\Debug\ConfigManager.obj
