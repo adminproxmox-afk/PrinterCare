@@ -1,0 +1,5 @@
+E:/app/PrinterCare/build/CMakeFiles/PrinterCare.dir
+E:/app/PrinterCare/build/CMakeFiles/PrinterCareSmoke.dir
+E:/app/PrinterCare/build/CMakeFiles/RUN_TESTS.dir
+E:/app/PrinterCare/build/CMakeFiles/ALL_BUILD.dir
+E:/app/PrinterCare/build/CMakeFiles/ZERO_CHECK.dir

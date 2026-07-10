@@ -1,0 +1,11 @@
+E:\app\PrinterCare\build\PrinterCare_autogen\mocs_compilation_Debug.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\mocs_compilation_Debug.obj
+E:\app\PrinterCare\src\main.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\main.obj
+E:\app\PrinterCare\src\managers\HistoryManager.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\HistoryManager.obj
+E:\app\PrinterCare\src\managers\ReminderManager.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\ReminderManager.obj
+E:\app\PrinterCare\src\managers\StartupManager.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\StartupManager.obj
+E:\app\PrinterCare\src\managers\TrayManager.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\TrayManager.obj
+E:\app\PrinterCare\src\localization\AppTranslator.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\AppTranslator.obj
+E:\app\PrinterCare\src\ui\UiDecor.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\UiDecor.obj
+E:\app\PrinterCare\src\ui\MainWindow.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\MainWindow.obj
+E:\app\PrinterCare\src\ui\SettingsWindow.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\SettingsWindow.obj
+E:\app\PrinterCare\src\managers\ConfigManager.cpp;E:\app\PrinterCare\build\PrinterCare.dir\Debug\ConfigManager.obj
