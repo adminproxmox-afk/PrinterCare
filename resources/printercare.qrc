@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="icons/app.svg">../assets/icons/app.svg</file>
+        <file alias="icons/settings.svg">../assets/icons/settings.svg</file>
+        <file alias="icons/dashboard.svg">../assets/icons/dashboard.svg</file>
+        <file alias="icons/tray.svg">../assets/icons/tray.svg</file>
+        <file alias="icons/history.svg">../assets/icons/history.svg</file>
+        <file alias="icons/reminder.svg">../assets/icons/reminder.svg</file>
+        <file alias="icons/appearance.svg">../assets/icons/appearance.svg</file>
+        <file alias="icons/language.svg">../assets/icons/language.svg</file>
+        <file alias="icons/printer-hero.svg">../assets/icons/printer-hero.svg</file>
+        <file alias="icons/check.svg">../assets/icons/check.svg</file>
+        <file alias="styles/light.qss">../assets/styles/light.qss</file>
+        <file alias="styles/dark.qss">../assets/styles/dark.qss</file>
+    </qresource>
+</RCC>
