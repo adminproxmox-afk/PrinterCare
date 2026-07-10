@@ -1,0 +1,43 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+<<<<<<< HEAD
+    <linearGradient id="bg" x1="32" y1="24" x2="224" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2A7BFF"/>
+      <stop offset="1" stop-color="#6EA8FF"/>
+    </linearGradient>
+    <linearGradient id="printer" x1="68" y1="78" x2="188" y2="182" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EAF2FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="208" height="208" rx="56" fill="url(#bg)"/>
+  <path d="M76 92C76 83.1634 83.1634 76 92 76H164C172.837 76 180 83.1634 180 92V118H76V92Z" fill="url(#printer)"/>
+  <path d="M68 124C68 115.163 75.1634 108 84 108H172C180.837 108 188 115.163 188 124V164C188 172.837 180.837 180 172 180H84C75.1634 180 68 172.837 68 164V124Z" fill="url(#printer)"/>
+  <path d="M92 180H164V192C164 200.837 156.837 208 148 208H108C99.1634 208 92 200.837 92 192V180Z" fill="url(#printer)"/>
+  <path d="M92 94C92 90.6863 94.6863 88 98 88H158C161.314 88 164 90.6863 164 94C164 97.3137 161.314 100 158 100H98C94.6863 100 92 97.3137 92 94Z" fill="#5B84D8"/>
+  <path d="M92 120C92 115.582 95.5817 112 100 112H156C160.418 112 164 115.582 164 120C164 124.418 160.418 128 156 128H100C95.5817 128 92 124.418 92 120Z" fill="#5B84D8"/>
+  <path d="M152 64L160 72L178 54" stroke="#38D57A" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="184" cy="56" r="8" fill="#38D57A"/>
+=======
+    <linearGradient id="bg" x1="28" y1="24" x2="232" y2="232" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#182536"/>
+      <stop offset="0.58" stop-color="#D97A36"/>
+      <stop offset="1" stop-color="#1FA7A3"/>
+    </linearGradient>
+    <linearGradient id="printer" x1="70" y1="76" x2="186" y2="186" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#EEF4FB"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="208" height="208" rx="56" fill="url(#bg)"/>
+  <path d="M74 92C74 82.059 82.059 74 92 74H164C173.941 74 182 82.059 182 92V114H74V92Z" fill="url(#printer)"/>
+  <path d="M64 122C64 113.163 71.1634 106 80 106H176C184.837 106 192 113.163 192 122V166C192 174.837 184.837 182 176 182H80C71.1634 182 64 174.837 64 166V122Z" fill="url(#printer)"/>
+  <path d="M88 182H168V192C168 200.837 160.837 208 152 208H104C95.1634 208 88 200.837 88 192V182Z" fill="url(#printer)"/>
+  <path d="M90 92C90 88.6863 92.6863 86 96 86H160C163.314 86 166 88.6863 166 92C166 95.3137 163.314 98 160 98H96C92.6863 98 90 95.3137 90 92Z" fill="#D6E3F7"/>
+  <rect x="90" y="116" width="76" height="8" rx="4" fill="#D97A36"/>
+  <rect x="90" y="130" width="94" height="8" rx="4" fill="#1FA7A3"/>
+  <rect x="90" y="144" width="84" height="8" rx="4" fill="#9CB4D9"/>
+  <path d="M160 58L168 66L186 48" stroke="#FFF5D8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="192" cy="50" r="8" fill="#FFF5D8"/>
+>>>>>>> 2a89a04941611fe5ae80dcc4f741cbfb21fd10f6
+</svg>

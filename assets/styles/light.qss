@@ -1,0 +1,1305 @@
+QWidget#MainWindowRoot,
+QWidget#SettingsWindowRoot {
+    background: qradialgradient(cx:0.20, cy:0.10, radius:1.18, fx:0.20, fy:0.10,
+        stop:0 #ffffff,
+        stop:0.42 #f4f7fb,
+        stop:1 #dfe8f3);
+    color: #182235;
+    font-family: "Segoe UI Variable Text", "Segoe UI", sans-serif;
+}
+
+QDialog#SettingsWindow {
+    background: transparent;
+}
+
+QStackedWidget#SettingsPages {
+    background: transparent;
+    border: none;
+}
+
+QFrame#ShellCard,
+QFrame#SettingsPagesCard {
+    background: rgba(255, 255, 255, 236);
+    border: 1px solid rgba(73, 93, 124, 38);
+    border-radius: 26px;
+}
+
+QFrame#ShellCard {
+    border-top: 4px solid #1f68ec;
+}
+
+QFrame#SidebarPanel,
+QFrame#SummaryCard,
+QFrame#CompanionCard,
+QFrame#SignalsCard,
+QFrame#QuickActionsCard,
+QFrame#StatusBoardCard,
+QFrame#HeroCard,
+QFrame#DesignerPromptCard {
+    background: rgba(255, 255, 255, 240);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-radius: 22px;
+}
+
+QFrame#SidebarPanel {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#SummaryCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#CompanionCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#SignalsCard {
+    border-left: 5px solid #4d7fe0;
+}
+
+QFrame#QuickActionsCard,
+QFrame#StatusBoardCard {
+    border-left: 5px solid #0e9f8f;
+}
+
+QFrame#HeroCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#HeroArtFrame {
+    background: qradialgradient(cx:0.45, cy:0.35, radius:1.0,
+        fx:0.45, fy:0.35,
+        stop:0 rgba(184, 213, 255, 255),
+        stop:0.52 rgba(243, 247, 251, 248),
+        stop:1 rgba(227, 236, 246, 248));
+    border: 1px solid rgba(31, 104, 236, 52);
+    border-radius: 22px;
+}
+
+QFrame#DesignerPromptCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#DashboardRail,
+QFrame#SettingsRail {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(255, 255, 255, 244),
+        stop:1 rgba(240, 246, 253, 246));
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-left: 5px solid #1f68ec;
+    border-radius: 24px;
+}
+
+QFrame#RailMetaCard,
+QFrame#HeroCard,
+QFrame#MaintenanceCard,
+QFrame#SettingsHeaderCard,
+QFrame#SettingsCard,
+QFrame#SettingsFooterCard,
+QFrame#HistoryPanel,
+QFrame#MetricsRail {
+    background: rgba(255, 255, 255, 240);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-radius: 22px;
+}
+
+QFrame#HeroCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#MaintenanceCard {
+    border-left: 5px solid #0e9f8f;
+}
+
+QFrame#SettingsHeaderCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#SettingsFooterCard {
+    border-left: 5px solid #0e9f8f;
+}
+
+QFrame#OverviewBanner,
+QFrame#SettingsOverviewBanner {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #143057,
+        stop:0.52 #1e67b8,
+        stop:1 #118f83);
+    border: 1px solid rgba(255, 255, 255, 92);
+    border-radius: 24px;
+}
+
+QLabel#AppLogo,
+QLabel#SettingsHeaderIcon {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #11376b,
+        stop:0.55 #1f68ec,
+        stop:1 #0e9f8f);
+    border: 1px solid rgba(255, 255, 255, 156);
+    border-radius: 22px;
+    color: #ffffff;
+}
+
+QLabel#AppTitle,
+QLabel#SettingsWindowTitle {
+    color: #121a2a;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: 0.2px;
+}
+
+QLabel#SidebarBrandName,
+QLabel#DashboardTitle,
+QLabel#CardTitle,
+QLabel#PromptTitle {
+    color: #121a2a;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+QLabel#SidebarBrandName {
+    font-size: 19px;
+}
+
+QLabel#DashboardTitle {
+    font-size: 28px;
+}
+
+QLabel#AppSubtitle,
+QLabel#SettingsWindowSubtitle,
+QLabel#MetricDescription,
+QLabel#SettingsSectionDescription,
+QLabel#SettingsValueLabel,
+QLabel#SettingsDescriptionLabel,
+QLabel#SettingsInfoLine,
+QLabel#ServiceRowValue,
+QLabel#RailSubtitle,
+QLabel#RailNote,
+QLabel#SidebarBrandText,
+QLabel#DashboardSubtitle,
+QLabel#CardDescription,
+QLabel#SidebarNote,
+QLabel#SidebarCopyright,
+QLabel#HistoryMetaLine,
+QLabel#PromptLead,
+QLabel#PromptBulletText {
+    color: #5f6d82;
+    font-size: 13px;
+}
+
+QLabel#HeaderStatusText {
+    color: #5f6d82;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+QLabel#HeaderStatusDot {
+    background: #24b76a;
+    border-radius: 3px;
+    min-width: 6px;
+    max-width: 6px;
+    min-height: 6px;
+    max-height: 6px;
+}
+
+QLabel#SummaryPrefix {
+    color: #121a2a;
+    font-size: 18px;
+    font-weight: 900;
+}
+
+QLabel#SummaryFooterText {
+    color: #536174;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+QLabel#ServiceRowHint {
+    color: #7b889b;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+QLabel#RailNote {
+    font-size: 12px;
+}
+
+QLabel#StatusChip,
+QLabel#SettingsProfileBadge,
+QLabel#MiniPill {
+    background: rgba(232, 249, 240, 250);
+    color: #15824b;
+    border: 1px solid rgba(36, 183, 106, 70);
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+QLabel#RailTitle,
+QLabel#MetricTitle,
+QLabel#SettingsSectionTitle,
+QLabel#ServiceRowTitle,
+QLabel#HistoryPanelTitle {
+    color: #121a2a;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+QLabel#RailTitle {
+    font-size: 18px;
+}
+
+QLabel#HeroKicker {
+    color: #175cc8;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+}
+
+QLabel#PromptSectionTitle {
+    color: #175cc8;
+    font-size: 15px;
+    font-weight: 900;
+    margin-top: 4px;
+}
+
+QLabel#PromptBullet {
+    color: #175cc8;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+QLabel#SettingsBannerKicker,
+QLabel#BannerKicker {
+    color: #175cc8;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+}
+
+QLabel#BannerKicker,
+QLabel#SettingsBannerKicker,
+QLabel#BannerTitle,
+QLabel#SettingsBannerTitle,
+QLabel#BannerSubtitle,
+QLabel#SettingsBannerSubtitle {
+    color: #ffffff;
+}
+
+QLabel#BannerTitle,
+QLabel#SettingsBannerTitle {
+    font-size: 19px;
+    font-weight: 900;
+}
+
+QLabel#BannerSubtitle,
+QLabel#SettingsBannerSubtitle {
+    color: rgba(255, 255, 255, 220);
+    font-size: 12px;
+}
+
+QLabel#HeroTitle {
+    color: #121a2a;
+    font-size: 28px;
+    font-weight: 900;
+}
+
+QLabel#HeroDescription {
+    color: #536174;
+    font-size: 14px;
+}
+
+QLabel#SignalText {
+    color: #31415e;
+    font-size: 13px;
+}
+
+QLabel#PromptTitle {
+    font-size: 18px;
+    line-height: 1.15;
+}
+
+QLabel#PromptLead {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+QFrame#ServiceStatusRow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffff,
+        stop:1 #f3f7fb);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-left: 5px solid #0e9f8f;
+    border-radius: 20px;
+}
+
+QFrame#MetricCard {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #ffffff,
+        stop:1 #f2f6fb);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-top: 4px solid #1f68ec;
+    border-radius: 18px;
+}
+
+QFrame#StatusTile,
+QFrame#SignalRow {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffff,
+        stop:1 #f2f6fb);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-radius: 18px;
+}
+
+QFrame#StatusTile {
+    border-top: 4px solid #0e9f8f;
+}
+
+QLabel#StatusTileIcon,
+QLabel#SummaryIcon,
+QLabel#SignalMark {
+    background: rgba(255, 255, 255, 238);
+    border: 1px solid rgba(73, 93, 124, 38);
+    border-radius: 14px;
+}
+
+QLabel#StatusTileTitle {
+    color: #121a2a;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+QLabel#StatusTileValue {
+    color: #121a2a;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.2;
+}
+
+QLabel#StatusTileCaption,
+QLabel#HeroArtCaption {
+    color: #175cc8;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+QScrollArea#PromptScroll {
+    background: transparent;
+    border: none;
+}
+
+QFrame#MetricCard:hover,
+QFrame#ServiceStatusRow:hover,
+QFrame#SettingsCard:hover,
+QFrame#MetricsRail:hover,
+QFrame#RailMetaCard:hover,
+QFrame#DashboardRail:hover,
+QFrame#SettingsRail:hover,
+QFrame#SidebarPanel:hover,
+QFrame#SummaryCard:hover,
+QFrame#CompanionCard:hover,
+QFrame#SignalsCard:hover,
+QFrame#QuickActionsCard:hover,
+QFrame#StatusBoardCard:hover,
+QFrame#HeroCard:hover,
+QFrame#HeroArtFrame:hover,
+QFrame#DesignerPromptCard:hover,
+QFrame#StatusTile:hover,
+QFrame#SignalRow:hover {
+    border-color: rgba(31, 104, 236, 90);
+    background: rgba(251, 253, 255, 252);
+}
+
+QLabel#MetricBadge {
+    background: #182235;
+    color: #ffffff;
+    border: 1px solid rgba(255, 255, 255, 140);
+    border-radius: 24px;
+    font-size: 14px;
+    font-weight: 850;
+}
+
+QLabel#MetricIcon,
+QLabel#BannerIcon,
+QLabel#ServiceRowIcon,
+QLabel#HistoryHeaderIcon,
+QLabel#SummaryIcon,
+QLabel#StatusTileIcon,
+QLabel#SignalMark {
+    background: rgba(255, 255, 255, 238);
+    border: 1px solid rgba(73, 93, 124, 38);
+    border-radius: 14px;
+}
+
+QWidget#PromptContent {
+    background: transparent;
+}
+
+QLabel#ServiceRowValue {
+    background: rgba(235, 243, 255, 246);
+    color: #184fbd;
+    border: 1px solid rgba(31, 104, 236, 56);
+    border-radius: 16px;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 750;
+}
+
+QLabel#BannerIcon {
+    background: rgba(255, 255, 255, 44);
+    border-color: rgba(255, 255, 255, 76);
+}
+
+QFrame#HistoryPanel {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 rgba(251, 253, 255, 248),
+        stop:1 rgba(242, 247, 252, 250));
+}
+
+QFrame#SettingsCardAccent {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #1f68ec,
+        stop:0.48 #0e9f8f,
+        stop:1 #e0a11a);
+    border: none;
+    border-radius: 2px;
+}
+
+QPushButton#PrimaryActionButton,
+QPushButton#SecondaryActionButton,
+QToolButton#ThemeToggleButton {
+    border-radius: 14px;
+    padding: 11px 16px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+QPushButton#PrimaryActionButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #125ad0);
+    color: #ffffff;
+    border: 1px solid #125ad0;
+}
+
+QPushButton#PrimaryActionButton:hover {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #2b75f3,
+        stop:1 #1f68ec);
+}
+
+QPushButton#PrimaryActionButton:pressed {
+    background: #114ea9;
+}
+
+QPushButton#SecondaryActionButton,
+QToolButton#ThemeToggleButton {
+    background: rgba(255, 255, 255, 246);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 48);
+}
+
+QPushButton#SecondaryActionButton:hover,
+QToolButton#ThemeToggleButton:hover {
+    background: #f4f8fc;
+    border-color: rgba(31, 104, 236, 92);
+}
+
+QPushButton#SecondaryActionButton:pressed,
+QToolButton#ThemeToggleButton:pressed {
+    background: #e8eef7;
+}
+
+QPushButton#PrimaryActionButton:focus,
+QPushButton#SecondaryActionButton:focus,
+QToolButton#ThemeToggleButton:focus,
+QComboBox#SettingsCombo:focus,
+QSpinBox#SettingsSpinBox:focus,
+QListWidget#SettingsNavigation:focus,
+QListWidget#HistoryList:focus {
+    border-color: #1f68ec;
+}
+
+QPushButton#PrimaryActionButton:disabled,
+QPushButton#SecondaryActionButton:disabled,
+QToolButton#ThemeToggleButton:disabled {
+    color: #8a96a9;
+    background: rgba(255, 255, 255, 182);
+    border-color: rgba(73, 93, 124, 22);
+}
+
+QCheckBox#SettingsToggle {
+    spacing: 10px;
+    color: #182235;
+    font-weight: 650;
+}
+
+QCheckBox#SettingsToggle::indicator {
+    width: 18px;
+    height: 18px;
+    border-radius: 6px;
+    border: 1px solid rgba(73, 93, 124, 68);
+    background: rgba(255, 255, 255, 248);
+}
+
+QCheckBox#SettingsToggle::indicator:checked {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    border-color: #1f68ec;
+}
+
+QComboBox#SettingsCombo,
+QSpinBox#SettingsSpinBox {
+    background: rgba(255, 255, 255, 246);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 56);
+    border-radius: 14px;
+    padding: 10px 14px;
+    min-height: 22px;
+    selection-background-color: #1f68ec;
+}
+
+QComboBox#SettingsCombo:hover,
+QSpinBox#SettingsSpinBox:hover {
+    border-color: rgba(31, 104, 236, 90);
+}
+
+QComboBox#SettingsCombo::drop-down {
+    border: none;
+    width: 22px;
+}
+
+QComboBox#SettingsCombo::down-arrow {
+    image: none;
+}
+
+QListWidget#SettingsNavigation,
+QListWidget#HistoryList {
+    background: transparent;
+    border: none;
+    outline: none;
+    selection-background-color: transparent;
+}
+
+QListWidget#SettingsNavigation::item {
+    background: rgba(244, 248, 253, 220);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 30);
+    border-radius: 16px;
+    padding: 12px 14px;
+    margin-bottom: 6px;
+}
+
+QListWidget#SettingsNavigation::item:hover {
+    background: rgba(232, 241, 255, 245);
+    border-color: rgba(31, 104, 236, 84);
+}
+
+QListWidget#SettingsNavigation::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    color: #ffffff;
+    border-color: transparent;
+    font-weight: 800;
+}
+
+QListWidget#SidebarNavigation {
+    background: transparent;
+    border: none;
+    outline: none;
+    selection-background-color: transparent;
+}
+
+QListWidget#SidebarNavigation::item {
+    background: rgba(244, 248, 253, 220);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 30);
+    border-radius: 16px;
+    padding: 12px 14px;
+    margin-bottom: 6px;
+}
+
+QListWidget#SidebarNavigation::item:hover {
+    background: rgba(232, 241, 255, 245);
+    border-color: rgba(31, 104, 236, 84);
+}
+
+QListWidget#SidebarNavigation::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    color: #ffffff;
+    border-color: transparent;
+    font-weight: 800;
+}
+
+QListWidget#HistoryList::item {
+    background: rgba(255, 255, 255, 236);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 28);
+    border-left: 4px solid #0e9f8f;
+    border-radius: 16px;
+    padding: 12px 14px;
+    min-height: 48px;
+}
+
+QListWidget#HistoryList::item:hover {
+    border-color: rgba(31, 104, 236, 82);
+    background: rgba(245, 249, 255, 248);
+}
+
+QScrollArea {
+    background: transparent;
+    border: none;
+}
+
+QScrollBar:vertical {
+    background: transparent;
+    width: 12px;
+    margin: 0;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(31, 104, 236, 128);
+    border-radius: 5px;
+    min-height: 28px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: rgba(31, 104, 236, 168);
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical,
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+    background: transparent;
+    border: none;
+}
+
+QLabel#FooterLabel {
+    color: #6d7a8f;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+}
+<<<<<<< HEAD
+=======
+
+/* Stronger redesign pass */
+QWidget#MainWindowRoot,
+QWidget#SettingsWindowRoot {
+    background: qradialgradient(cx:0.18, cy:0.08, radius:1.2, fx:0.18, fy:0.08,
+        stop:0 #fffaf2,
+        stop:0.48 #f5ecd8,
+        stop:1 #e2d3be);
+    color: #18212f;
+}
+
+QFrame#ShellCard,
+QFrame#SettingsPagesCard {
+    background: rgba(255, 251, 245, 242);
+    border: 1px solid rgba(79, 90, 110, 34);
+    border-radius: 30px;
+}
+
+QFrame#ShellCard {
+    border-top: 4px solid #d97a36;
+}
+
+QFrame#SidebarPanel,
+QFrame#DashboardRail,
+QFrame#SettingsRail {
+    background: qlineargradient(x1:0, y1:0, x2:0, y2:1,
+        stop:0 #182536,
+        stop:1 #101923);
+    border: 1px solid rgba(255, 255, 255, 20);
+    border-left: 5px solid #d97a36;
+}
+
+QFrame#SummaryCard,
+QFrame#CompanionCard,
+QFrame#SignalsCard,
+QFrame#QuickActionsCard,
+QFrame#StatusBoardCard,
+QFrame#HeroCard,
+QFrame#DesignerPromptCard,
+QFrame#RailMetaCard,
+QFrame#MaintenanceCard,
+QFrame#SettingsHeaderCard,
+QFrame#SettingsCard,
+QFrame#SettingsFooterCard,
+QFrame#HistoryPanel,
+QFrame#MetricsRail {
+    background: rgba(255, 251, 245, 245);
+    border: 1px solid rgba(79, 90, 110, 30);
+    border-radius: 24px;
+}
+
+QFrame#SummaryCard,
+QFrame#HeroCard,
+QFrame#SettingsHeaderCard {
+    border-left: 5px solid #d97a36;
+}
+
+QFrame#SignalsCard,
+QFrame#StatusBoardCard,
+QFrame#MaintenanceCard,
+QFrame#SettingsFooterCard {
+    border-left: 5px solid #1fa7a3;
+}
+
+QFrame#QuickActionsCard,
+QFrame#DesignerPromptCard,
+QFrame#RailMetaCard {
+    border-left: 5px solid #f0b15e;
+}
+
+QFrame#OverviewBanner,
+QFrame#SettingsOverviewBanner {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #d97a36,
+        stop:0.55 #1fa7a3,
+        stop:1 #12223a);
+    border: 1px solid rgba(255, 255, 255, 76);
+}
+
+QFrame#HeroArtFrame {
+    background: qradialgradient(cx:0.45, cy:0.30, radius:0.95,
+        fx:0.45, fy:0.30,
+        stop:0 #ffffff,
+        stop:0.55 #f8f1e6,
+        stop:1 #efe3cf);
+    border: 1px solid rgba(79, 90, 110, 42);
+}
+
+QLabel#AppLogo,
+QLabel#SettingsHeaderIcon {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #182536,
+        stop:0.55 #d97a36,
+        stop:1 #1fa7a3);
+    border: 1px solid rgba(255, 255, 255, 120);
+}
+
+QLabel#AppTitle,
+QLabel#SettingsWindowTitle,
+QLabel#DashboardTitle,
+QLabel#SidebarBrandName,
+QLabel#CardTitle,
+QLabel#PromptTitle,
+QLabel#RailTitle,
+QLabel#MetricTitle,
+QLabel#SettingsSectionTitle,
+QLabel#ServiceRowTitle,
+QLabel#HistoryPanelTitle,
+QLabel#StatusTileTitle {
+    color: #172130;
+}
+
+QLabel#AppSubtitle,
+QLabel#SettingsWindowSubtitle,
+QLabel#MetricDescription,
+QLabel#SettingsSectionDescription,
+QLabel#SettingsValueLabel,
+QLabel#SettingsDescriptionLabel,
+QLabel#SettingsInfoLine,
+QLabel#ServiceRowValue,
+QLabel#RailSubtitle,
+QLabel#RailNote,
+QLabel#SidebarBrandText,
+QLabel#DashboardSubtitle,
+QLabel#SidebarNote,
+QLabel#SidebarCopyright,
+QLabel#HistoryMetaLine,
+QLabel#PromptLead,
+QLabel#PromptBulletText,
+QLabel#HeroDescription,
+QLabel#SignalText {
+    color: #5a6577;
+}
+
+QLabel#HeroTitle {
+    font-size: 32px;
+}
+
+QLabel#HeroKicker,
+QLabel#BannerKicker,
+QLabel#SettingsBannerKicker,
+QLabel#PromptSectionTitle,
+QLabel#ServiceRowHint {
+    color: #d97a36;
+}
+
+QLabel#StatusChip,
+QLabel#SettingsProfileBadge,
+QLabel#MiniPill {
+    background: rgba(31, 167, 163, 20);
+    color: #176a68;
+    border: 1px solid rgba(31, 167, 163, 88);
+}
+
+QLabel#SummaryPrefix,
+QLabel#StatusTileValue {
+    color: #18212f;
+}
+
+QFrame#MetricCard,
+QFrame#ServiceStatusRow,
+QFrame#StatusTile,
+QFrame#SignalRow {
+    background: rgba(255, 251, 245, 248);
+    border: 1px solid rgba(79, 90, 110, 30);
+}
+
+QFrame#MetricCard {
+    border-top: 4px solid #d97a36;
+}
+
+QFrame#ServiceStatusRow {
+    border-left: 5px solid #1fa7a3;
+}
+
+QFrame#StatusTile {
+    border-top: 4px solid #1fa7a3;
+}
+
+QFrame#SignalRow {
+    border-left: 4px solid #f0b15e;
+}
+
+QPushButton#PrimaryActionButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #d97a36,
+        stop:1 #f0b15e);
+    border: 1px solid #d97a36;
+}
+
+QPushButton#SecondaryActionButton,
+QToolButton#ThemeToggleButton {
+    background: rgba(255, 255, 255, 240);
+    color: #18212f;
+    border: 1px solid rgba(79, 90, 110, 42);
+}
+
+QListWidget#SidebarNavigation::item,
+QListWidget#SettingsNavigation::item {
+    background: rgba(255, 255, 255, 234);
+    color: #18212f;
+}
+
+QListWidget#SidebarNavigation::item:selected,
+QListWidget#SettingsNavigation::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #d97a36,
+        stop:1 #1fa7a3);
+}
+
+QListWidget#HistoryList::item {
+    background: rgba(255, 255, 255, 238);
+    color: #18212f;
+    border-left: 4px solid #1fa7a3;
+}
+
+QComboBox#SettingsCombo,
+QSpinBox#SettingsSpinBox {
+    background: rgba(255, 255, 255, 244);
+    color: #18212f;
+    border: 1px solid rgba(79, 90, 110, 42);
+}
+
+QCheckBox#SettingsToggle::indicator:checked {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #d97a36,
+        stop:1 #1fa7a3);
+    border-color: #d97a36;
+}
+
+/* Redesign override layer */
+QWidget#MainWindowRoot,
+QWidget#SettingsWindowRoot {
+    background: qradialgradient(cx:0.18, cy:0.10, radius:1.18, fx:0.18, fy:0.10,
+        stop:0 #ffffff,
+        stop:0.42 #f6f9fd,
+        stop:1 #dfe8f3);
+    color: #162033;
+    font-family: "Segoe UI Variable Text", "Segoe UI", sans-serif;
+}
+
+QFrame#ShellCard,
+QFrame#SettingsPagesCard {
+    background: rgba(255, 255, 255, 240);
+    border: 1px solid rgba(73, 93, 124, 36);
+    border-radius: 28px;
+}
+
+QFrame#ShellCard {
+    border-top: 4px solid #1f68ec;
+}
+
+QFrame#SidebarPanel,
+QFrame#SummaryCard,
+QFrame#CompanionCard,
+QFrame#SignalsCard,
+QFrame#QuickActionsCard,
+QFrame#StatusBoardCard,
+QFrame#HeroCard,
+QFrame#DesignerPromptCard,
+QFrame#RailMetaCard,
+QFrame#MaintenanceCard,
+QFrame#SettingsHeaderCard,
+QFrame#SettingsCard,
+QFrame#SettingsFooterCard,
+QFrame#HistoryPanel,
+QFrame#MetricsRail,
+QFrame#DashboardRail,
+QFrame#SettingsRail {
+    background: rgba(255, 255, 255, 240);
+    border: 1px solid rgba(73, 93, 124, 34);
+    border-radius: 24px;
+}
+
+QFrame#SidebarPanel,
+QFrame#SummaryCard,
+QFrame#CompanionCard,
+QFrame#HeroCard,
+QFrame#SettingsHeaderCard,
+QFrame#SettingsCard {
+    border-left: 5px solid #1f68ec;
+}
+
+QFrame#SignalsCard,
+QFrame#StatusBoardCard,
+QFrame#SettingsFooterCard,
+QFrame#MaintenanceCard {
+    border-left: 5px solid #0e9f8f;
+}
+
+QFrame#QuickActionsCard,
+QFrame#DesignerPromptCard,
+QFrame#RailMetaCard {
+    border-left: 5px solid #e0a11a;
+}
+
+QFrame#HeroArtFrame,
+QFrame#OverviewBanner,
+QFrame#SettingsOverviewBanner {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffff,
+        stop:0.52 #f3f7fb,
+        stop:1 #ebf2fa);
+    border: 1px solid rgba(73, 93, 124, 54);
+    border-radius: 24px;
+}
+
+QFrame#OverviewBanner,
+QFrame#SettingsOverviewBanner {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+        stop:0 #143057,
+        stop:0.55 #1f68ec,
+        stop:1 #0e9f8f);
+}
+
+QLabel#HeroArt {
+    background: transparent;
+    border: none;
+    padding: 8px;
+}
+
+QLabel#AppLogo,
+QLabel#SettingsHeaderIcon,
+QLabel#SummaryIcon,
+QLabel#MetricIcon,
+QLabel#BannerIcon,
+QLabel#ServiceRowIcon,
+QLabel#HistoryHeaderIcon,
+QLabel#StatusTileIcon,
+QLabel#SignalMark,
+QLabel#HeroArt {
+    background: rgba(255, 255, 255, 238);
+    border: 1px solid rgba(73, 93, 124, 38);
+    border-radius: 16px;
+}
+
+QLabel#AppLogo,
+QLabel#SettingsHeaderIcon {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #11376b,
+        stop:0.55 #1f68ec,
+        stop:1 #0e9f8f);
+    border: 1px solid rgba(255, 255, 255, 148);
+    border-radius: 24px;
+}
+
+QLabel#AppTitle,
+QLabel#SettingsWindowTitle,
+QLabel#DashboardTitle,
+QLabel#SidebarBrandName {
+    color: #152033;
+    font-weight: 900;
+    letter-spacing: -0.3px;
+}
+
+QLabel#AppTitle,
+QLabel#SettingsWindowTitle {
+    font-size: 30px;
+}
+
+QLabel#DashboardTitle {
+    font-size: 28px;
+}
+
+QLabel#SidebarBrandName {
+    font-size: 20px;
+}
+
+QLabel#CardTitle,
+QLabel#PromptTitle,
+QLabel#RailTitle,
+QLabel#MetricTitle,
+QLabel#SettingsSectionTitle,
+QLabel#ServiceRowTitle,
+QLabel#HistoryPanelTitle,
+QLabel#StatusTileTitle {
+    color: #152033;
+    font-size: 16px;
+    font-weight: 850;
+}
+
+QLabel#CardDescription,
+QLabel#AppSubtitle,
+QLabel#SettingsWindowSubtitle,
+QLabel#MetricDescription,
+QLabel#SettingsSectionDescription,
+QLabel#SettingsValueLabel,
+QLabel#SettingsDescriptionLabel,
+QLabel#SettingsInfoLine,
+QLabel#ServiceRowValue,
+QLabel#RailSubtitle,
+QLabel#RailNote,
+QLabel#SidebarBrandText,
+QLabel#DashboardSubtitle,
+QLabel#SidebarNote,
+QLabel#SidebarCopyright,
+QLabel#HistoryMetaLine,
+QLabel#PromptLead,
+QLabel#PromptBulletText,
+QLabel#HeroDescription,
+QLabel#SignalText {
+    color: #5f6d82;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+QLabel#HeroTitle {
+    color: #152033;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: -0.45px;
+}
+
+QLabel#HeroKicker,
+QLabel#BannerKicker,
+QLabel#SettingsBannerKicker,
+QLabel#PromptSectionTitle,
+QLabel#ServiceRowHint {
+    color: #175cc8;
+    font-size: 11px;
+    font-weight: 900;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+}
+
+QLabel#PromptBullet {
+    color: #175cc8;
+    font-size: 16px;
+    font-weight: 900;
+}
+
+QLabel#StatusChip,
+QLabel#SettingsProfileBadge,
+QLabel#MiniPill {
+    background: rgba(232, 249, 240, 250);
+    color: #15824b;
+    border: 1px solid rgba(36, 183, 106, 70);
+    border-radius: 999px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+QLabel#SummaryPrefix,
+QLabel#StatusTileValue {
+    color: #152033;
+    font-weight: 900;
+    letter-spacing: -0.4px;
+}
+
+QLabel#SummaryPrefix {
+    font-size: 18px;
+}
+
+QLabel#StatusTileValue {
+    font-size: 23px;
+}
+
+QLabel#SummaryFooterText,
+QLabel#StatusTileCaption,
+QLabel#HeroArtCaption {
+    color: #175cc8;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+QLabel#ServiceRowValue {
+    background: rgba(235, 243, 255, 246);
+    color: #184fbd;
+    border: 1px solid rgba(31, 104, 236, 56);
+    border-radius: 16px;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 750;
+}
+
+QFrame#MetricCard,
+QFrame#ServiceStatusRow,
+QFrame#StatusTile,
+QFrame#SignalRow,
+QFrame#HistoryPanel {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 246), rgba(243, 247, 252, 250));
+    border: 1px solid rgba(73, 93, 124, 36);
+    border-radius: 20px;
+}
+
+QFrame#MetricCard {
+    border-top: 4px solid #1f68ec;
+}
+
+QFrame#ServiceStatusRow {
+    border-left: 5px solid #0e9f8f;
+}
+
+QFrame#StatusTile {
+    border-top: 4px solid #0e9f8f;
+}
+
+QFrame#SignalRow {
+    border-left: 4px solid #e0a11a;
+}
+
+QFrame#HistoryPanel {
+    background: linear-gradient(180deg, rgba(251, 253, 255, 248), rgba(242, 247, 252, 250));
+}
+
+QScrollArea#PromptScroll {
+    background: transparent;
+    border: none;
+}
+
+QPushButton#PrimaryActionButton,
+QToolButton#ThemeToggleButton {
+    border-radius: 14px;
+    padding: 11px 16px;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+QPushButton#PrimaryActionButton {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    color: #ffffff;
+    border: 1px solid #125ad0;
+}
+
+QPushButton#SecondaryActionButton,
+QToolButton#ThemeToggleButton {
+    background: rgba(255, 255, 255, 246);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 48);
+}
+
+QPushButton#PrimaryActionButton:hover,
+QPushButton#SecondaryActionButton:hover,
+QToolButton#ThemeToggleButton:hover,
+QListWidget#SidebarNavigation::item:hover,
+QListWidget#SettingsNavigation::item:hover,
+QListWidget#HistoryList::item:hover,
+QFrame#MetricCard:hover,
+QFrame#ServiceStatusRow:hover,
+QFrame#SettingsCard:hover,
+QFrame#MetricsRail:hover,
+QFrame#RailMetaCard:hover,
+QFrame#DashboardRail:hover,
+QFrame#SettingsRail:hover,
+QFrame#SidebarPanel:hover,
+QFrame#SummaryCard:hover,
+QFrame#CompanionCard:hover,
+QFrame#SignalsCard:hover,
+QFrame#QuickActionsCard:hover,
+QFrame#StatusBoardCard:hover,
+QFrame#HeroCard:hover,
+QFrame#HeroArtFrame:hover,
+QFrame#DesignerPromptCard:hover,
+QFrame#StatusTile:hover,
+QFrame#SignalRow:hover {
+    border-color: rgba(31, 104, 236, 96);
+    background: rgba(251, 253, 255, 252);
+}
+
+QListWidget#SidebarNavigation::item:selected,
+QListWidget#SettingsNavigation::item:selected {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    color: #ffffff;
+    border-color: transparent;
+    font-weight: 800;
+}
+
+QListWidget#SidebarNavigation::item,
+QListWidget#SettingsNavigation::item,
+QListWidget#HistoryList::item {
+    background: rgba(244, 248, 253, 224);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 30);
+    border-radius: 16px;
+    padding: 12px 14px;
+    margin-bottom: 6px;
+}
+
+QListWidget#HistoryList::item {
+    border-left: 4px solid #0e9f8f;
+}
+
+QComboBox#SettingsCombo,
+QSpinBox#SettingsSpinBox {
+    background: rgba(255, 255, 255, 246);
+    color: #182235;
+    border: 1px solid rgba(73, 93, 124, 56);
+    border-radius: 14px;
+    padding: 10px 14px;
+    min-height: 22px;
+    selection-background-color: #1f68ec;
+}
+
+QCheckBox#SettingsToggle::indicator:checked {
+    background: qlineargradient(x1:0, y1:0, x2:1, y2:1,
+        stop:0 #1f68ec,
+        stop:1 #0e9f8f);
+    border-color: #1f68ec;
+}
+
+QScrollBar::handle:vertical {
+    background: rgba(31, 104, 236, 128);
+}
+
+QScrollBar::handle:vertical:hover {
+    background: rgba(31, 104, 236, 168);
+}
+>>>>>>> 2a89a04941611fe5ae80dcc4f741cbfb21fd10f6
